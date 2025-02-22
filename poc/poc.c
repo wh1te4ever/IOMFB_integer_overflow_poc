@@ -85,3 +85,7 @@ void poc(void) {
     // we don't reach here, but for completness
     IOServiceClose(iomfb_uc);
 }
+
+int main(void) {
+    poc();
+}
